@@ -1,0 +1,117 @@
+/* Reset some default styles */
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic styling for the entire chat container */
+.group-container {
+  display: flex;
+  background-color: #f3f3f3;
+  height: 100%;
+}
+
+/* Style for the sidebar (aside) */
+aside {
+  width: 280px;
+  background-color: #343a40;
+  color: #fff;
+  padding: 20px;
+}
+
+/* Styling for chat container (main) */
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Style for the chat header */
+main header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Style for the chat title */
+#groupname {
+  font-size: 24px;
+  font-weight: bold;
+  color: #3498db;
+}
+
+/* Styling for chat messages */
+ul#chat {
+  list-style: none;
+  padding: 0;
+}
+
+ul#chat li {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for chat message sender information */
+.entete {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* Styling for chat message timestamp */
+.entete h3 {
+  margin-left: auto;
+  color: #999;
+  font-size: 14px;
+}
+
+/* Styling for chat message sender name */
+.entete h2 {
+  margin-right: auto;
+  font-weight: bold;
+}
+
+/* Styling for message text */
+.message {
+  font-size: 16px;
+}
+
+/* Styling for file upload button */
+#sendFile {
+  display: none;
+}
+
+#uploadFile button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Styling for chat input form */
+form#chat-form {
+  display: flex;
+  align-items: center;
+}
+
+.chatbar {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.sendchat {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+/* Additional styles can be added to customize the appearance further */
